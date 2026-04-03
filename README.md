@@ -37,6 +37,6 @@ It intentionally excludes:
 
 ## Notes
 
-This is a portfolio and workflow repo built around OpenClaw. Sensitive runtime config such as live `openclaw.json`, logs, session transcripts, and tokens are intentionally not committed.
+This is a workflow repo built around OpenClaw. Sensitive runtime config such as live `openclaw.json`, logs, session transcripts, and tokens are intentionally not committed.
 
 If you want to run a version of this setup yourself, create your own local OpenClaw instance and add your own sanitized config separately.
