@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Local OpenClaw workspace/runtime state
+.openclaw/
+memory/
+
+# Secrets and machine-specific config snapshots
+.env
+.env.*
+*.local
+openclaw.json
+openclaw.json.bak*
+openclaw.json.save
+openclaw.json.clobbered.*
+
+# Runtime/session data if copied into this repo later
+agents/
+logs/
+tasks/
+telegram/
+devices/
+credentials/
+delivery-queue/
+subagents/
+canvas/
+exec-approvals.json
+update-check.json
+
+# Session and transcript artifacts
+*.jsonl
+*.jsonl.lock
+*.reset.*
+
